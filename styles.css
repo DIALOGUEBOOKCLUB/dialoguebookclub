@@ -81,10 +81,6 @@
     .row{
         margin-bottom: 47%;
     }
-    .instagram-icon{
-        width: 2.5%;
-        margin-left: 82%;
-    }
 }
 
 @media (max-width: 768px){
@@ -132,6 +128,9 @@
     width: 60%;
     text-align: center;
     z-index:0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 3%;
 }
 
 .info-container{
@@ -148,12 +147,15 @@
 .main-container{
     padding-top: 20%;
     z-index: 1;
+    margin-left: 12%;
+    margin-right: 12%;
 }
 
 .row{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 37%;
 }
 
 img {
@@ -196,3 +198,8 @@ img {
 .instagram-icon:hover{
     fill: #CC0000;
   }
+
+    .book1 , .book2 , .book3 {
+        position: relative;
+        width: 20%;
+    }
