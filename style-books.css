@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'GT Ultra';
+    src: url('GTUltra-Light.otf') format('woff2'), /* Modern Browsers */
+         url('GTUltra-Light.otf') format('woff'); /* Older Browsers */
+    /* Add any additional font properties here */
+  }
+
+  body {
+    font-family: 'GT Ultra'
+  }
+
+  body {
+    margin: 0;
+  }
+  
+  a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease-in-out;
+    font-size: 2.2vw;
+    letter-spacing: -2.5px;
+    pointer-events: auto;
+  }
+
+  a:hover{
+    color: #CC0000;
+  }
+
+@media (max-width: 1500px){
+    .content-container{
+        margin-left: 12%;
+        margin-right: 12%;
+        width: 76%;
+    }
+    .month{
+        font-size: 2.4vw;
+        letter-spacing: -4px;
+    }
+    .title{
+        font-size: 1.8vw;
+        letter-spacing: -1px;
+    }
+
+    .images{
+        margin-left: 19%;
+        width: 26%;
+    }
+    .images img{
+        width: 100%;
+        z-index: 0;
+        margin-top: 36%;
+    
+    }
+    .description-container{
+        width: 47%;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 1152px){
+    a{
+        font-size: 3vw;
+    }
+    .month{
+        font-size: 2.8vw;
+    }
+    .title{
+        font-size: 2.1vw;
+        letter-spacing: -1px;
+    }
+    .images img{
+        margin-top: 41%;
+    }
+}
+
+@media (max-width: 768px){
+    .content-container{
+        margin-left: 6%;
+        margin-right: 6%;
+        width: 88%;
+    }
+    a{
+        font-size: 4.1vw;
+        letter-spacing: -1.7px;
+    }
+    .month{
+        font-size: 3.8vw;
+        letter-spacing: -2.8px;
+
+    }
+    .title{
+        font-size: 2.7vw;
+        letter-spacing: -1px;
+    }
+    .images img{
+        margin-top: 47%;
+    }
+}
+
+@media (max-width: 500px){
+    .description-container{
+        width: 88%;
+        margin: none;
+        margin-bottom: 0; /* Remove any existing bottom margin */
+        background-color: white;
+        padding-top: 2%;
+        padding-bottom: 3%;
+        height: auto; /* Reset height */
+        position: fixed; /* Position fixed to keep it at the bottom */
+        bottom: 0;
+    }
+    .month{
+        font-size: 6.2vw;
+    }
+    .title{
+        font-size: 4.5vw;
+        letter-spacing: -0.5px;
+    }
+    .video {
+        display: none;
+    }
+    .images{
+        width: 50%;
+        margin-left: 25%;
+    }
+    .images img{
+        width: 100%;
+        z-index: 0;
+        margin-top: 16%;
+    }
+
+    .images img:nth-child(2) {
+        margin-top: 5%;
+        padding-bottom: 135%;
+    }
+    
+}
+
+
+.content-container{
+  position: fixed;
+  margin-top: 5%;
+  z-index: 999;
+  height: 100%;
+}
+
+
+
+.back-button{
+    margin-bottom: 3%;
+}
+
+.title{
+    text-align: right;
+    width: 60%;
+}
+
+.month{
+    width: 35%;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 11%;
+}
+
+.text-container{
+    line-height: 1.45;
+    margin-bottom: 5%;
+
+}
+
+.video{
+    width: 70%;
+    transition: border 0.3s ease-in-out;
+}
+
+.video:hover{
+    border-right: #CC0000 3pt solid;
+}
+
+
+.images img:nth-child(2) {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
