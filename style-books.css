@@ -99,7 +99,7 @@
 
 @media (max-width: 500px){
     .description-container{
-        width: 88%;
+        width: 95vw;
         margin: none;
         margin-bottom: 0; /* Remove any existing bottom margin */
         background-color: white;
