@@ -108,6 +108,7 @@
         height: auto; /* Reset height */
         position: fixed; /* Position fixed to keep it at the bottom */
         bottom: 0;
+        color: blue;
     }
     .month{
         font-size: 6.2vw;
