@@ -42,13 +42,6 @@
      .text-container{
         width: 40%;
      }
-     .instagram-icon{
-        width: 2%;
-        margin-left: 90%;
-        margin-top: 7%;
-        margin-left: 88%;
-
-    }
 }
 
 @media (max-width: 1152px){
@@ -134,7 +127,8 @@
 
 .logo-container{
    margin-right: 5%;
-   width: 15%;}
+   width: 15%;
+}
 
 img{
     width: 100%;
