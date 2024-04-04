@@ -97,8 +97,30 @@
     }
 }
 
+@media (max-width: 500px){
+    .description-container{
+        width: 88%;
+        margin: none;
+        margin-bottom: 0; /* Remove any existing bottom margin */
+        background-color: white;
+        padding-top: 2%;
+        padding-bottom: 3%;
+        height: auto; /* Reset height */
+        position: fixed; /* Position fixed to keep it at the bottom */
+        bottom: 0;
 
-
+    }
+        .month{
+        font-size: 6.2vw;
+    }
+    .title{
+        font-size: 4.5vw;
+        letter-spacing: -0.5px;
+    }
+    .video {
+        display: none;
+    }
+}
 
 .content-container{
   position: fixed;
