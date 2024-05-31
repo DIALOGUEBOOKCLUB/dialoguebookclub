@@ -97,14 +97,14 @@
 
 @media (max-width: 500px){
     a{
-        font-size: 5.5vw;
+        font-size: 7vw;
     }
     .center-container{
         display: flex;
         flex-direction: column;
         width: 100%;
         margin-left: 5%;
-        margin-top: 5vh;
+        margin-top: 10vh;
      }
     .logo-container{
         width: 33%;
@@ -114,7 +114,7 @@
         width: 80%;
      }
      .instagram-icon{
-        width: 5.5%;
+        width: 7%;
     }
 }
 
